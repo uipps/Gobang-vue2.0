@@ -2,7 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import routes from './routes'
 
-const pathnameRE = new RegExp('(/gobang-vue2.0/dist/)', 'i')
+const pathnameRE = new RegExp('(/wuziqi/wzq02/)', 'i')
 // 个人仓信息
 const isGithub = pathnameRE.test(window.location.pathname)
 
